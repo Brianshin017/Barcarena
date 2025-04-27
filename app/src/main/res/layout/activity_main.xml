@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="@drawable/gradiente_fundo">
+
+
+    <!-- Botão 1: Login -->
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="355dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/imagem2" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="JÁ POSSUI LOGIN"
+        android:textAllCaps="false"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#9E9E9E"
+        android:textColor="#FFFFFF"/>
+
+    <!-- Botão 2: Cadastro -->
+    <Button
+        android:id="@+id/btn_cadastrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CADASTRAR USUARIO"
+        android:textAllCaps="false"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#9E9E9E"
+        android:textColor="#FFFFFF"/>
+
+    <!-- Botão 3: Consulta -->
+    <Button
+        android:id="@+id/btn_consultar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CONSULTAR CHAMADO"
+        android:textAllCaps="false"
+        android:backgroundTint="#9E9E9E"
+        android:textColor="#FFFFFF"/>
+
+
+
+</LinearLayout>

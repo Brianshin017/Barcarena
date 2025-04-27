@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@drawable/bq_gradient">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- Título -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DADOS DO USUARIO"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- Campos do formulário -->
+        <EditText
+            android:id="@+id/et_nome_completo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="NOME COMPLETO"
+            android:inputType="textPersonName"
+            android:backgroundTint="#FFFFFF"
+            android:textColor="#FFFFFF"/>
+
+        <EditText
+            android:id="@+id/et_cep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="CEP"
+            android:inputType="number"
+            android:backgroundTint="#FFFFFF"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="16dp"/>
+
+        <EditText
+            android:id="@+id/et_telefone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="TELEFONE"
+            android:inputType="phone"
+            android:backgroundTint="#FFFFFF"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="16dp"/>
+
+        <EditText
+            android:id="@+id/et_endereco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ENDEREÇO"
+            android:inputType="textPostalAddress"
+            android:backgroundTint="#FFFFFF"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="16dp"/>
+
+        <EditText
+            android:id="@+id/et_cruzamento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="QUAIS RUAS FAZEM CRUZAMENTO COM A SUA?"
+            android:inputType="textCapSentences"
+            android:backgroundTint="#FFFFFF"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="16dp"/>
+
+        <EditText
+            android:id="@+id/et_numero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="NÚMERO DA RESIDENCIA"
+            android:inputType="number"
+            android:backgroundTint="#FFFFFF"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="16dp"/>
+
+        <EditText
+            android:id="@+id/et_referencia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="PONTO DE REFERENCIA"
+            android:inputType="textCapSentences"
+            android:backgroundTint="#FFFFFF"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="16dp"/>
+
+        <!-- Botão Salvar -->
+        <Button
+            android:id="@+id/btn_salvar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SALVAR"
+            android:backgroundTint="#4CAF50"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="32dp"/>
+
+    </LinearLayout>
+</ScrollView>

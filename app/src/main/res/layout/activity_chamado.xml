@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="@drawable/bq_gradient">
+
+    <!-- Título -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="QUAL TIPO DE CHAMADO VOCÊ\nGOSTARIA DE FAZER:"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="32dp"/>
+
+    <!-- Botão Pontos Turísticos -->
+    <Button
+        android:id="@+id/btn_pontos_turisticos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PONTOS TURÍSTICOS"
+        android:textAllCaps="false"
+        android:backgroundTint="#2196F3"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Botão Serviços de Rua -->
+    <Button
+        android:id="@+id/btn_servicos_rua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SERVIÇOS DE RUA"
+        android:textAllCaps="false"
+        android:backgroundTint="#4CAF50"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>
