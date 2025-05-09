@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="@drawable/gradiente_fundo">
+
+    <!-- Texto explicativo centralizado acima dos botões -->
+    <TextView
+        android:id="@+id/tv_selecione_outros_problemas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SELECIONE OUTROS PROBLEMAS"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Botão para número do poste -->
+    <Button
+        android:id="@+id/btn_numero_poste"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NÚMERO DO POSTE"
+        android:textAllCaps="false"
+        android:backgroundTint="#4CAF50"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Botão para reclamações detalhadas -->
+    <Button
+        android:id="@+id/btnReclamacoesDetalhadas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RECLAMAÇÕES MAIS DETALHADAS"
+        android:textAllCaps="false"
+        android:backgroundTint="#4CAF50"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>
